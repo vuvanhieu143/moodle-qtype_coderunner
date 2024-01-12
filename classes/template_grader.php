@@ -29,6 +29,21 @@
 
 class qtype_coderunner_template_grader extends qtype_coderunner_grader {
 
+    /**
+     * The fraction.
+     */
+    public $fraction;
+
+    /**
+     * HTML output.
+     */
+    public $got_html;
+
+    /**
+     * Expected HTML output.
+     */
+    public $expected_html;
+
     public function name() {
         return "TemplateGrader";
     }
