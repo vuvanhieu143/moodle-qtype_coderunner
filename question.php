@@ -587,6 +587,8 @@ class qtype_coderunner_question extends question_graded_automatically {
      */
     public $generalfeedbackfiles;
 
+    public $ordering;
+
     /**
      * Start a new attempt at this question, storing any information that will
      * be needed later in the step. It is retrieved and applied by

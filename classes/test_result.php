@@ -28,6 +28,10 @@
 class qtype_coderunner_test_result {
 
     /**
+     * The test id.
+     */
+    public $id;
+    /**
      * Whether the test case is incorrect.
      */
     public $iscorrect;
